@@ -1,0 +1,38 @@
+.tintuc{
+    background-color: #131E28;
+}       
+#tintuc-tieude{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+#tintuc1 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+}
+.tintuc1-img{
+width: 300px;
+height: 200px;
+border-radius: 20px;
+}
+.tintuc1-content{
+    color: aliceblue;
+    width: 50%;
+    margin-left: 15px;
+    
+}
+.tintuc1-tieude{
+    font-size: 25px;
+}
+.tintuc1-tieude:hover{
+    color: #C3A157;
+}
+.tintuc1-noidung{
+    font-size: 15px;
+}
+.tintuc1-noidung:hover{
+    color: #C3A157;
+}

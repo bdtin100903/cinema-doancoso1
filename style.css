@@ -1,0 +1,392 @@
+  body{ 
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .menu{
+      height: 90px;
+      width: 100%;
+      background-color:#172C3F;
+  }
+  .menu-left{
+    float: left;
+    margin-top: 0;
+  }
+  #logo{
+      margin-top: 5px;
+      margin-left: 40px;
+      height: 80px;
+      width: 200px;
+  }
+  .menu-right{
+      margin-left:  250px; 
+      margin-right: 250px;
+  }
+  #search{
+    padding-top: 20px;
+  
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .search-boder {
+    padding-left: 40px;
+    padding-right: 5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 3.5rem;
+    z-index: 0;
+    background-color: #18222C;
+    color: white;
+  }
+  .login{
+    margin-top: -70px;
+    padding: 10px;
+    color: whitesmoke;
+    float: right;
+  }
+  #btn-login{
+    border: 1px solid #7D6741;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+
+
+      }
+  #btn-login:hover{
+    background-color: #F7CD48 ;
+    margin-top: 10px;
+    transition: 2s;
+    position: relative;
+    cursor: pointer;
+    
+
+
+  }
+
+  .danhsach{
+      background-color: #18222C;
+      margin: px;
+      height: 43px;
+      text-align: center;
+  }
+  .thumuc{
+      display: inline-block;
+      line-height: 40px;
+      background-color: transparent;
+      position: relative;
+      text-align: center;
+      border: 1px solid #E3AE57;
+      color: #fff;
+      font-weight: initial;
+      width: 15%;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .thumuc:hover{
+      background-color: #F7CD48 ;
+  }
+
+
+  .banner{
+      background-color: red;
+  }
+  .movie-list-container{
+      padding: 20px;
+  }
+  .movie-list-title{
+      color: white;
+      text-align: center;
+      font-size: 30px;
+
+  }
+  .movie-list-wrapper{
+      margin-top: 50px;
+  }
+  .movie-list{
+      display: flex;
+      align-items: center;
+      height: 300px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: space-around;
+      justify-content: space-evenly;
+  }
+  .movie-list-item {
+    height: 100%;
+    width: 40%;
+    margin-right: 30px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  } 
+  .movie-list-item:hover .movie-list-item-img{
+      transform: scale(1.2);
+      margin: 0 30px;
+  }
+  .movie-list-item-img{
+      transition: all 1s ease-in-out;
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+  }
+  .movie-list-item-desc{
+      text-align: center;
+      color: #895E18  ;
+      font-size: 20px;
+      font-style: bold;
+     
+  }
+  .movie-list-item-button{
+      background-color: #ACDECC;
+      border-radius: 10px;
+      width: 50%;
+      
+  }
+  .promotion-list-container{
+      padding: 20px;
+    }
+    .promotion-list-title{
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    
+    }
+    .promotion-list-wrapper-top{
+      margin-top: 50px;
+    }
+    .promotion-list-wrapper-bottom{
+      margin-top: -30px;
+    }
+    .promotion-list{
+      display: flex;
+      align-items: flex-start;
+      height: 300px;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .promotion-list-item{
+      margin-right: 30px;
+      text-align: center;
+    }
+    .promotion-list-item:hover .promotion-list-item-img{
+      transform: scale(1.2);
+      margin: 0 30px;
+    }
+    .promotion-list-item-img{
+      object-fit: scale-down;
+      transition: all 1s ease-in-out;
+      width: 400px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    .promotion-list-item-desc{
+      text-align: center;
+      color: #895E18  ;
+      font-size: 20px;
+      font-style: bold;
+    }
+    .promotion-list-item-button{
+      background-color: #C5E0E7;
+      border-radius: 10px;
+    
+    }
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+  .footer-distributed{
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+
+  .footer-distributed .footer-left, 
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* Footer left */
+
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+
+  /* The company logo */
+
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+
+  /* Footer links */
+
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  /* Footer Center */
+
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+
+  /* Footer Right */
+
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+
+
+
+  /* If you don't want the footer to be responsive, remove these media queries */
+
+  @media (max-width: 880px) {
+
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+
+  }
